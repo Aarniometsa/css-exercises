@@ -54,13 +54,14 @@ ul {
 
 .left, .right {
   flex:1;
-  display: flex;;
+  display: flex;
+  align-items: center;
 }
 
 .right {
   justify-content: flex-end;
   margin-right: 8px;
-  align-items: center;
+  
   gap: 16px;
 }
 
