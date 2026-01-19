@@ -5,11 +5,14 @@ body {
 img {
   width: 100px;
   height: 100px;
+  align-self: center;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin: 32px 0;
 }
 
 /* do not edit this footer */
@@ -23,4 +26,25 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.contentbox, .box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex-direction: column;
+}
+
+.contentbox {
+  gap: 52px;
+}
+
+.text {
+  flex: 1;
+  width: 200px;
+  flex-wrap: wrap;
+  text-align: center;
 }
